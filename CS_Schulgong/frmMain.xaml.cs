@@ -64,7 +64,28 @@ namespace CS_Schulgong
             //ADDED
             //++++++++++++++
 
+            showAboutMe();
+
             this.Show();
+        }
+
+        private void showAboutMe()
+        {
+            txtblckAboutMe.Text = "LKTools Schulgong \n" +
+                "Version \n" +
+                "Freeware/OpenSource \n" +
+                " \n" +
+                "Kontakt: \n" +
+                "software@info-rommel.de \n" +
+                "https://github.com/matrommel/CS_Schulgong \n" +
+                " \n" +
+                "Datenschutzerklärung \n" +
+                "Seitens LKTools werden keine personenbezogenen Daten erfasst, ausgewertet oder weitergegeben. Auf der sourceforge Webseite wird die Anzahl der Downloads mit Land und Betriebssystem ausgewertet. \n" +
+                " \n" +
+                "Sonstiges: \n" +
+                "Bitte teilen Sie mir mit, falls Sie Fehler finden oder Erweiterungswünsche haben. Über konstruktives Feedback freue ich mich sehr. \n" +
+                "- Matthias Rommel -  \n";
+
         }
 
         public void update(cControllers mainController)

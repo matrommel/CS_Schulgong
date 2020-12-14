@@ -40,7 +40,7 @@
                     <Label x:Name="lblRemaingTimeHeader" Content="verb. Zeit" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Height="23" Width="63" Background="{x:Null}" Grid.Column="1"/>
                 </Grid>
             </TabItem>
-            <TabItem Header="Info">
+            <TabItem Header="Einstellungen">
                 <Grid Background="#FFE5E5E5" Margin="0,0,-6,0">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="2*"/>
@@ -49,6 +49,13 @@
                     </Grid.ColumnDefinitions>
                     <CheckBox x:Name="chkTopMost" Content="Anwendung immer im Vordergrund anzeigen" Grid.Column="1" HorizontalAlignment="Left" Margin="14,10,0,0" VerticalAlignment="Top" Click="chkTopMost_Click" Grid.ColumnSpan="2" />
                     <CheckBox x:Name="chkMinimizToSystemTray" Content="Ausblenden bei Minimierung (Taskleiste)" Grid.Column="1" HorizontalAlignment="Left" Margin="14,30,0,0" VerticalAlignment="Top"  Grid.ColumnSpan="2" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Über...">
+                <Grid Background="#FFE5E5E5" Margin="0,0,-6,0">
+                    <TextBlock x:Name="txtblckAboutMe" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="139" Width="349"/>
+
+
                 </Grid>
             </TabItem>
         </TabControl>
