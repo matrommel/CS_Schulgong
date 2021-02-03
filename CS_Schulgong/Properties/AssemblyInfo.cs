@@ -10,7 +10,7 @@ using System.Windows;
 [assembly: AssemblyTitle("CS_Schulgong")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("LKTools")]
 [assembly: AssemblyProduct("CS_Schulgong")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]

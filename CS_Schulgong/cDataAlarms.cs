@@ -12,6 +12,7 @@ namespace CS_Schulgong
 
         public List<DateTime> getValues()
         {
+            Alarms.Sort();
             return Alarms;
         }
 

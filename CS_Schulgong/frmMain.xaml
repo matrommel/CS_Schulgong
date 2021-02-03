@@ -53,7 +53,7 @@
             </TabItem>
             <TabItem Header="Über...">
                 <Grid Background="#FFE5E5E5" Margin="0,0,-6,0">
-                    <TextBlock x:Name="txtblckAboutMe" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="139" Width="349"/>
+                    <TextBlock x:Name="txtblckAboutMe" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Info" VerticalAlignment="Top" Height="145" Width="349" FontSize="10"/>
 
 
                 </Grid>

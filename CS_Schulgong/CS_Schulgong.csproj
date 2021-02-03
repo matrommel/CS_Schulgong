@@ -25,7 +25,10 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>https://github.com/matrommel/CS_Schulgong</SupportUrl>
+    <ErrorReportUrl>https://github.com/matrommel/CS_Schulgong/issues</ErrorReportUrl>
     <ProductName>Schulgong LKTools</ProductName>
+    <PublisherName>Matthias Rommel</PublisherName>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>0.1.0.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
@@ -55,16 +58,22 @@
     <ApplicationIcon>LKTools.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>6F6C7C44A1ACDDEFBCBF06DDB4C31D97357FE2E5</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>E2EA018608E7280593E720A2B18E83BAD804041C</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>CS_Schulgong_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>CS_Schulgong_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
     <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -107,6 +116,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="iDataModell.cs" />
+    <Compile Include="iForms.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -124,7 +134,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="CS_Schulgong_1_TemporaryKey.pfx" />
     <None Include="CS_Schulgong_TemporaryKey.pfx" />
+    <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
